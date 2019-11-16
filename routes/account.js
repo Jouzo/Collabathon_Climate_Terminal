@@ -9,6 +9,6 @@ var router = express.Router()
 router.get('/logout', account.logout)
 router.post('/login', login)
 router.post('/register', getFields, register)
-router.get('/connected', account.connected)
+router.get('/isConnected', account.connected)
 
 export default router
