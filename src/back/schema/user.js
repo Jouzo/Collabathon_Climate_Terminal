@@ -2,7 +2,7 @@ import mongoose from 'mongoose'
 
 var schema = new mongoose.Schema({
   username: String,
-  created: Date,
+  // created: Date,
   password: String,
   // enabled: Boolean,
 })

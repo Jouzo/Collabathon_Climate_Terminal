@@ -10,8 +10,15 @@ import bodyParser from 'body-parser'
 import cookieParser from 'cookie-parser'
 import routes from './routes/index'
 import mongoose from 'mongoose'
+import express from 'express'
 
-mongoose.connect(dbURI, options)
+var app = express()
+
+app.set('trust proxy', true)
+
+var dbURI = 'mongodb://localhost/ClimateTerminal'
+
+mongoose.connect(dbURI)
 
 mongoose.set('useCreateIndex', true)
 mongoose.connection.on('connected', function () {
