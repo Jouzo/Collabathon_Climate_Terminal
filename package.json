@@ -1,0 +1,28 @@
+{
+  "name": "climate_terminal",
+  "version": "0.0.0",
+  "description": "\"The Bloomberg Terminal is one of the most used financial platforms and acts as a one stop shop for information and markets related to finance. The Terminal has a sleek black interface which has a dashboard on the homescreen, summarising developments in the business world in the past day. It has shortcuts to news, information on specific markets, countries and companies, and the ability to invest in different markets around the world instantly.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jouzo/Collabathon_Climate_Terminal.git"
+  },
+  "keywords": [
+    "Yale",
+    "HEC",
+    "Collabathon",
+    "Climate",
+    "Finance",
+    "Business",
+    "Terminal"
+  ],
+  "author": "Jeremy d'Esclercs, Massoud Movahhed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jouzo/Collabathon_Climate_Terminal/issues"
+  },
+  "homepage": "https://github.com/Jouzo/Collabathon_Climate_Terminal#readme"
+}
